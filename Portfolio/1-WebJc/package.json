@@ -5,7 +5,8 @@
   "scripts": {
     "dev": "astro dev --host --port 4321",
     "build": "astro build",
-    "preview": "astro preview --host"
+    "preview": "astro preview --host",
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "astro": "5.0.0-beta.12"
@@ -16,6 +17,8 @@
     "@types/bun": "^1.2.15",
     "autoprefixer": "^10.4.21",
     "cssnano": "^7.0.7",
-    "tailwindcss": "^4.1.11"
+    "tailwindcss": "^4.1.11",
+    "@astrojs/github": "^5.0.0",
+    "gh-pages": "^6.0.0"
   }
 }
