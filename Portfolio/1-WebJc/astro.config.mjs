@@ -1,13 +1,12 @@
 // @ts-check
 import { defineConfig } from 'astro/config';
 import tailwindcss from "@tailwindcss/vite";
-import github from '@astrojs/github';
 
 
 // https://astro.build/config
 export default defineConfig({
   output: 'static',
-  adapter: github(),
+  site: 'https://CarlosjctDev.github.io',
   base: '/Portfolio/1-WebJc/',  
   vite: {
     plugins: [tailwindcss()]
