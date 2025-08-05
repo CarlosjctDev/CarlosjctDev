@@ -1,15 +1,17 @@
-# 🌐 Portafolio Web Personal – Hecho con Astro
+# 🌐 Portafolio Web Personal – Hecho con Astro 
 
-Este es mi proyecto web personal creado con **Astro**, diseñado para destacar mis habilidades, experiencias y servicios como desarrollador. El sitio es rápido, moderno y completamente optimizado para SEO y rendimiento.
+Este es mi proyecto web personal construido con **Astro**. Un sitio completamente desarrollado con tecnologías **vanilla**, sin frameworks innecesarios, diseñado para destacar mis habilidades, valores y servicios como desarrollador web.  
+El enfoque está en la **simplicidad**, **rendimiento** y **control total del código**.
 
 ---
 
 ## 🚀 Tecnologías Usadas
 
-- [Astro](https://astro.build/)
-- [Tailwind CSS](https://tailwindcss.com/) 
-- HTML, CSS y SVG personalizados
-- Estructura de componentes reutilizables
+- ⚡ [Astro](https://astro.build/) – Generador de sitios estáticos moderno
+- 🎨 [Tailwind CSS](https://tailwindcss.com/) – Utilidades para estilos rápidos
+- 🧩 HTML, CSS y SVG personalizados
+- 🧠 **Vanilla JavaScript** 
+- 🧱 Componentes organizados y reutilizables
 
 ---
 
@@ -17,12 +19,12 @@ Este es mi proyecto web personal creado con **Astro**, diseñado para destacar m
 
 ```text
 /
-├── public/                  # Archivos públicos
+├── public/                  # Archivos públicos (favicon, imágenes, etc.)
 ├── src/
-│   ├── assets/              # Imágenes, íconos, SVGs, CSS
-│   ├── components/          # Componentes de UI (cards, menú, texto, etc.)
-│   ├── layouts/             # Layout principal
-│   └── pages/               # Páginas del sitio (inicio, contáctame)
+│   ├── assets/              # CSS, íconos, imágenes y SVG
+│   ├── components/          # Componentes: cards, menús, textos, secciones
+│   ├── layouts/             # Layout principal del sitio
+│   └── pages/               # Páginas del sitio (index, contactame)
 ├── astro.config.mjs         # Configuración de Astro
 ├── package.json             # Dependencias y scripts
-└── tsconfig.json            # Configuración de TypeScript 
+└── tsconfig.json            # (Opcional) Configuración de TypeScript
