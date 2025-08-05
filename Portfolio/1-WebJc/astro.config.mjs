@@ -7,7 +7,7 @@ import tailwindcss from "@tailwindcss/vite";
 export default defineConfig({
   output: 'static',
   site: 'https://CarlosjctDev.github.io',
-  base: '/Portfolio/1-WebJc/',  
+  base: '/WebJc/',  
   vite: {
     plugins: [tailwindcss()]
   },
